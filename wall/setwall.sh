@@ -1,1 +1,0 @@
-wal -i $HOME/wall/
