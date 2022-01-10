@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Dependencies:
-# convert wal xdotool xwallpaper
+# convert wal xdotool xwallpaper 
 
 wall_dir=~/pix/wall
 
@@ -16,5 +16,5 @@ xwallpaper --zoom ~/.local/share/bg.jpg
 wal -c
 wal -i ~/.local/share/bg.jpg
 xdotool key super+F5
-#$HOME/.local/src/wal-telegram/wal-telegram
-#pywal-discord
+$HOME/.local/src/wal-telegram/wal-telegram
+pywal-discord
