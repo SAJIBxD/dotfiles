@@ -1,0 +1,1 @@
+/home/sajib/.config/zsh/.zshenv
