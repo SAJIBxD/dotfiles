@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	${HOME}/.config/polybar/cuts/scripts/launcher.sh
+	${HOME}/.config/polybar/scripts/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
