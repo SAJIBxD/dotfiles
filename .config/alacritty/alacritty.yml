@@ -7,7 +7,8 @@
 import:
   # - ~/.config/alacritty/colors/nord.yml
   # - ~/.config/alacritty/colors/catpuccin.yml
-  - ~/.config/alacritty/colors/everforest.yml
+  # - ~/.config/alacritty/colors/everforest.yml
+  - ~/.cache/wal/colors.yml
   - ~/.config/alacritty/fonts.yml
 
 ## Set environment variables
