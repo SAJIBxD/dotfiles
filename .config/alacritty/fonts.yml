@@ -1,5 +1,6 @@
 # Font configuration
 font:
+  # Normal (roman) font face
   normal:
     family: "JetBrainsMono Nerd Font"
     style: Medium
