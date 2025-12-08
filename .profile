@@ -5,8 +5,12 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
+# .dotnet
 export DOTNET_CLI_HOME="$XDG_DATA_HOME"/dotnet
+
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+# .rustup
+export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 # .npm
 export NPM_CONFIG_INIT_MODULE="$XDG_CONFIG_HOME"/npm/config/npm-init.js
 export NPM_CONFIG_CACHE="$XDG_CACHE_HOME"/npm
@@ -14,4 +18,5 @@ export NPM_CONFIG_TMP="$XDG_RUNTIME_DIR"/npm
 
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 
-
+# .python_history
+export PYTHONSTARTUP="$XDG_CONFIG_HOME"/python/pythonrc
