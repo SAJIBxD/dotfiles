@@ -1,0 +1,4 @@
+" Create directory if needed
+silent !mkdir -p ~/.local/state/vim
+set viminfofile=~/.local/state/vim/viminfo
+
